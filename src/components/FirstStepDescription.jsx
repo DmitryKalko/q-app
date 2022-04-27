@@ -9,6 +9,7 @@ const FirstStepDescription = ({ lightTheme }) => {
         What is your name?
       </p>
       <img src={firstStep} alt="firstStep" />
+      <p>dh</p>
     </div>
   );
 };

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`about work FirstStepDescription component should render FirstStepDescription component 1`] = `
+<div
+  className="step"
+>
+  <p
+    style={
+      Object {
+        "color": "#6d6d6d",
+      }
+    }
+  >
+    Hey!
+  </p>
+  <p
+    style={
+      Object {
+        "color": "#6d6d6d",
+      }
+    }
+  >
+    What is your name?
+  </p>
+  <img
+    alt="firstStep"
+    src={
+      Object {
+        "process": [Function],
+      }
+    }
+  />
+  <p>
+    dh
+  </p>
+</div>
+`;

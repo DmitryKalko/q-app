@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`make snaphots should render App component 1`] = `
+<div
+  class="main"
+>
+  <div
+    class="form"
+  >
+    <div
+      class="left-part"
+    >
+      <div
+        class="step"
+      >
+        <p
+          style="color:white"
+        >
+          Hey!
+        </p>
+        <p
+          style="color:white"
+        >
+          What is your name?
+        </p>
+        <img
+          alt="firstStep"
+          src="[object Object]"
+        />
+        <p>
+          dh
+        </p>
+      </div>
+    </div>
+    <div
+      class="right-part"
+    >
+      <div
+        class="changeTheme"
+      >
+        <div
+          class="MuiFormGroup-root css-dmmspl-MuiFormGroup-root"
+        >
+          <label
+            class="MuiFormControlLabel-root MuiFormControlLabel-labelPlacementEnd css-j204z7-MuiFormControlLabel-root"
+          >
+            <span
+              class="MuiSwitch-root MuiSwitch-sizeMedium css-lu9khh-MuiSwitch-root"
+            >
+              <span
+                class="MuiSwitch-switchBase MuiSwitch-colorPrimary MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary PrivateSwitchBase-root css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase"
+              >
+                <input
+                  class="MuiSwitch-input PrivateSwitchBase-input css-1m9pwf3"
+                  type="checkbox"
+                />
+                <span
+                  class="MuiSwitch-thumb css-jsexje-MuiSwitch-thumb"
+                />
+              </span>
+              <span
+                class="MuiSwitch-track css-1yjjitx-MuiSwitch-track"
+              />
+            </span>
+            <span
+              class="MuiTypography-root MuiTypography-body1 MuiFormControlLabel-label css-ahj2mt-MuiTypography-root"
+            />
+          </label>
+        </div>
+      </div>
+      <div
+        class="component"
+      >
+        <div
+          class="first-step"
+        >
+          <input
+            placeholder="first name"
+            style="color:white"
+            type="text"
+            value=""
+          />
+          <input
+            placeholder="second name"
+            style="color:white"
+            type="text"
+            value=""
+          />
+          <button
+            class="btn"
+            style="color:white"
+          >
+            NEXT
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`make snaphots should shallow App component 1`] = `
+<div
+  className="main"
+>
+  <div
+    className="form"
+  >
+    <div
+      className="left-part"
+    >
+      <FirstStepDescription
+        lightTheme={true}
+      />
+    </div>
+    <div
+      className="right-part"
+    >
+      <div
+        className="changeTheme"
+      >
+        <CustomizedSwitches
+          switchTheme={[Function]}
+        />
+      </div>
+      <div
+        className="component"
+      >
+        <Memo(observerComponent)
+          lightTheme={true}
+          toNextStep={[Function]}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
