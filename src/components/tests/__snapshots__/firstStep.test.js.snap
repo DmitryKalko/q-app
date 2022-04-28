@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FirstStep component should render FirstStep component 1`] = `
+<div
+  className="first-step"
+>
+  <input
+    onChange={[Function]}
+    placeholder="first name"
+    style={
+      Object {
+        "color": "#6d6d6d",
+      }
+    }
+    type="text"
+    value=""
+  />
+  <input
+    onChange={[Function]}
+    placeholder="second name"
+    style={
+      Object {
+        "color": "#6d6d6d",
+      }
+    }
+    type="text"
+    value=""
+  />
+  <button
+    className="btn"
+    style={
+      Object {
+        "color": "#6d6d6d",
+      }
+    }
+  >
+    NEXT
+  </button>
+</div>
+`;

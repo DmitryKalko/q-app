@@ -25,15 +25,15 @@ describe('should render App component', () => {
 
 describe('make snaphots', () => {
     it('should shallow App component', () => {
-        const component = shallow(<App/>)
+        const component = shallow(<App/>)   // shallow осуществляет неглубокую отрисовку - рендерится только наш компенент, без дочерних. по всемени - самый быстрый
         expect(component).toMatchSnapshot();
     });
     it('should render App component', () => {
-        const component = render(<App/>)
+        const component = render(<App/>)  // рендерится целевой компонент с дочерними. используется именно для проверки разметки. по времени - средний
         expect(component).toMatchSnapshot();
     });
     // it('should mount  App component', () => {
-    //     const component = mount(<App/>)
+    //     const component = mount(<App/>)     // рендерится целевой компонент с дочерними. используется если нужно тестить методы жизненного цикла или поведение дочерних элементов. по времени - самый долгий
     //     expect(component).toMatchSnapshot();
     // });
 });
