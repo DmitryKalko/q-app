@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThirdStep component should render ThirdStep component 1`] = `
+<div
+  className="third-step"
+>
+  <ForwardRef(FormControl)>
+    <ForwardRef(RadioGroup)
+      aria-labelledby="demo-radio-buttons-group-label"
+      defaultValue=""
+      id="radio-group"
+      name="radio-buttons-group"
+      onChange={[Function]}
+      sx={
+        Object {
+          "color": "#6d6d6d",
+        }
+      }
+      value={null}
+    >
+      <ForwardRef(FormControlLabel)
+        control={<ForwardRef(Radio) />}
+        label="Every day"
+        value="day"
+      />
+      <ForwardRef(FormControlLabel)
+        control={<ForwardRef(Radio) />}
+        label="Once a week"
+        value="week"
+      />
+      <ForwardRef(FormControlLabel)
+        control={<ForwardRef(Radio) />}
+        label="Once a month"
+        value="month"
+      />
+      <ForwardRef(FormControlLabel)
+        control={<ForwardRef(Radio) />}
+        label="I don't need notifications"
+        value="no"
+      />
+    </ForwardRef(RadioGroup)>
+  </ForwardRef(FormControl)>
+  <div
+    className="btns-block"
+  >
+    <button
+      className="btn"
+      style={
+        Object {
+          "color": "#6d6d6d",
+        }
+      }
+    >
+      BACK
+    </button>
+    <button
+      className="btn"
+      style={
+        Object {
+          "color": "#6d6d6d",
+        }
+      }
+    >
+      NEXT
+    </button>
+  </div>
+</div>
+`;

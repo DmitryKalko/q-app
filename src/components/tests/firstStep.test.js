@@ -3,11 +3,12 @@ import React from "react";
 import FirstStep from "../FirstStep";
 
 
-const setUp = () => shallow(<FirstStep/>);
+const setUp = () => shallow(<FirstStep  />);
 
 describe('FirstStep component', () => {
     let component;
     let instance;
+
     beforeEach(() => {
         component = setUp();  // сюда присваивается результат функции shallow, которая выполняет отрисовку компонента
         instance = component.instance(); 
@@ -17,11 +18,15 @@ describe('FirstStep component', () => {
         expect(component).toMatchSnapshot();
     });
 
-    // describe('FirstStep handlers', () => {
-    //     test('should handle search input value', () => {
-    //         expect(component.state().searchQuery).toBe('')  // не работает с функциональными компонентами
-    //         instance.handleInputChange({target:{value: 'test'}})
-    //         expect(component.state().searchQuery).toBe('test')
-    //     })
-    // })
+
+    it('FirstStep inputs', () => {
+        const testState = { name: 'denn', lastName: 'kalko' };
+        expect(component.find('input').at(0).prop('value')).toEqual('');
+        expect(component.find('input').at(1).prop('value')).toEqual('');
+        component.find('input').at(0).simulate('change', { target: { name: 'name', value: 'denn' } });
+        component.find('input').at(1).simulate('change', { target: { name: 'age', lastName: 'kalko' } });
+        expect(testState.name).toEqual('denn');
+        expect(testState.lastName).toEqual('kalko');
+      });
+
 })

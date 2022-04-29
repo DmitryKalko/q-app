@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`about work FirstStepDescription component should render FirstStepDescription component 1`] = `
+exports[`about work SecondStepDescription component should render SecondStepDescription component 1`] = `
 <div
   className="step"
 >
@@ -11,16 +11,7 @@ exports[`about work FirstStepDescription component should render FirstStepDescri
       }
     }
   >
-    Hey!
-  </p>
-  <p
-    style={
-      Object {
-        "color": "#6d6d6d",
-      }
-    }
-  >
-    What is your name?
+    Please fill in additional information
   </p>
   <img
     alt="firstStep"

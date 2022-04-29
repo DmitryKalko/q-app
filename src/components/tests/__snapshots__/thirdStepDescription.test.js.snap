@@ -11,16 +11,7 @@ exports[`about work FirstStepDescription component should render FirstStepDescri
       }
     }
   >
-    Hey!
-  </p>
-  <p
-    style={
-      Object {
-        "color": "#6d6d6d",
-      }
-    }
-  >
-    What is your name?
+    How do you want to receive notifications?
   </p>
   <img
     alt="firstStep"

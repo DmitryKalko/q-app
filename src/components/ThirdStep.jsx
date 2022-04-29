@@ -16,6 +16,7 @@ const ThirdStep = observer(({ toFinishStep, toPrevStep, lightTheme }) => {
     <div className="third-step">
       <FormControl>
         <RadioGroup
+          id="radio-group"
           aria-labelledby="demo-radio-buttons-group-label"
           defaultValue=""
           value={data.store.notifications}

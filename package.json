@@ -36,12 +36,14 @@
     "@mui/material": "^5.5.1",
     "html-webpack-plugin": "^5.3.1",
     "identity-obj-proxy": "^3.0.0",
+    "jest-environment-jsdom": "^28.0.2",
     "mobx": "^6.5.0",
     "mobx-react-lite": "^3.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "jest": {
+    "testEnvironment": "jsdom",
     "verbose": true,
     "clearMocks": true,
     "collectCoverage": true,

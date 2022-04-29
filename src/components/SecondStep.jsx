@@ -46,6 +46,7 @@ const SecondStep = observer(({ toNextStep, toPrevStep, lightTheme }) => {
         <FormControlLabel
           control={
             <Checkbox
+              id="checkbox-agree"
               sx={{ color: "#50c2b7" }}
               onChange={setPolicyAgree}
               checked={data.store.policyAgree}

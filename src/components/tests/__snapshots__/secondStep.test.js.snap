@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SecondStep component should render SecondStep component 1`] = `
+<div
+  className="second-step"
+>
+  <ForwardRef(Box)
+    sx={
+      Object {
+        "width": 300,
+      }
+    }
+  >
+    <ForwardRef(FormControl)
+      fullWidth={true}
+    >
+      <ForwardRef(InputLabel)
+        id="demo-simple-select-label"
+      >
+        Gender
+      </ForwardRef(InputLabel)>
+      <ForwardRef(Select)
+        id="demo-simple-select"
+        label="Gender"
+        labelId="demo-simple-select-label"
+        onChange={[Function]}
+        sx={
+          Object {
+            "color": "#6d6d6d",
+          }
+        }
+        value=""
+      >
+        <ForwardRef(MenuItem)
+          value="Male"
+        >
+          Male
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          value="Female"
+        >
+          Female
+        </ForwardRef(MenuItem)>
+        <ForwardRef(MenuItem)
+          value="Other"
+        >
+          Other
+        </ForwardRef(MenuItem)>
+      </ForwardRef(Select)>
+    </ForwardRef(FormControl)>
+  </ForwardRef(Box)>
+  <ForwardRef(FormGroup)>
+    <ForwardRef(FormControlLabel)
+      control={
+        <ForwardRef(Checkbox)
+          checked={false}
+          id="checkbox-agree"
+          onChange={[Function]}
+          sx={
+            Object {
+              "color": "#50c2b7",
+            }
+          }
+        />
+      }
+      label="I agree with the site policy"
+      sx={
+        Object {
+          "color": "#6d6d6d",
+        }
+      }
+    />
+  </ForwardRef(FormGroup)>
+  <div
+    className="btns-block"
+  >
+    <button
+      className="btn"
+      style={
+        Object {
+          "color": "#6d6d6d",
+        }
+      }
+    >
+      BACK
+    </button>
+    <button
+      className="btn"
+      style={
+        Object {
+          "color": "#6d6d6d",
+        }
+      }
+    >
+      NEXT
+    </button>
+  </div>
+</div>
+`;
