@@ -38,3 +38,79 @@ exports[`FirstStep component should render FirstStep component 1`] = `
   </button>
 </div>
 `;
+
+exports[`FirstStep component should render component with props for dark theme 1`] = `
+<div
+  className="first-step"
+>
+  <input
+    onChange={[Function]}
+    placeholder="first name"
+    style={
+      Object {
+        "color": "#6d6d6d",
+      }
+    }
+    type="text"
+    value="denn"
+  />
+  <input
+    onChange={[Function]}
+    placeholder="second name"
+    style={
+      Object {
+        "color": "#6d6d6d",
+      }
+    }
+    type="text"
+  />
+  <button
+    className="btn"
+    style={
+      Object {
+        "color": "#6d6d6d",
+      }
+    }
+  >
+    NEXT
+  </button>
+</div>
+`;
+
+exports[`FirstStep component should render component with props for light theme 1`] = `
+<div
+  className="first-step"
+>
+  <input
+    onChange={[Function]}
+    placeholder="first name"
+    style={
+      Object {
+        "color": "white",
+      }
+    }
+    type="text"
+    value="denn"
+  />
+  <input
+    onChange={[Function]}
+    placeholder="second name"
+    style={
+      Object {
+        "color": "white",
+      }
+    }
+    type="text"
+  />
+  <button
+    className="btn"
+    style={
+      Object {
+        "color": "white",
+      }
+    }
+  >
+    NEXT
+  </button>
+</div>
+`;

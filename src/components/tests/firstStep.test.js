@@ -29,4 +29,13 @@ describe('FirstStep component', () => {
         expect(testState.lastName).toEqual('kalko');
       });
 
+      it("should render component with props for light theme", () => {
+        const component = shallow(<FirstStep lightTheme={true} />);
+        expect(component).toMatchSnapshot();
+      });
+    
+      it("should render component with props for dark theme", () => {
+        const component = shallow(<FirstStep lightTheme={false} />);
+        expect(component).toMatchSnapshot();
+      });
 })
