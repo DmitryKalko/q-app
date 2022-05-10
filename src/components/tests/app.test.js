@@ -40,21 +40,12 @@ describe('make snaphots', () => {
 
     it('should handle the click event', () => {
         window.alert = jest.fn();                     // мокаем функцию alert
-        const component = shallow(<App/>)
-        component.simulate('click');                 // эмитируем клик
+        const component = mount(<App/>);
+        const nextBtn = component.find('.btn');
+        nextBtn.simulate('click');                 // эмитируем клик
         expect(window.alert).toHaveBeenCalledWith('Please fill in all fields');
       });
 });
 
-it('should do some stuff on window resize event', () => {
-    const wrapper = mount(<App />);
-    const spy = jest.spyOn(wrapper.instance(), 'handleWindowResize');
-
-    // set spy to 'resize' listener
-    global.addEventListener('resize', spy);
-    global.dispatchEvent(new Event('resize'));
-
-    expect(spy).toHaveBeenCalled();
-});
 
 
